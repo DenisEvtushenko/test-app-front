@@ -1,0 +1,22 @@
+.column_row {
+  background-color: rgba(189, 189, 189, 0.5);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+  min-height: 120px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.column_row:hover {
+  box-shadow: 0 0 10px 5px rgba(0,0,0,0.4);
+}
+
+.col {
+  flex: 1 1 100%;
+}
+
+.col.index {
+  flex: 0 0 32px;
+}

@@ -1,0 +1,11 @@
+.series_header {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 30px;
+  padding: 20px 0 20px 20px;
+}
+
+.series_header > h1 {
+  margin: auto;
+}

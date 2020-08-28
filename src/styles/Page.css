@@ -1,0 +1,22 @@
+.column_wrapper {
+  display: flex;
+  height: calc(100vh - 200px);
+  overflow: auto;
+  padding: 0 30px;
+}
+
+.column_wrapper::-webkit-scrollbar {
+  width: 0;
+}
+
+.column_header {
+  background-color: rgba(189, 189, 189, 0.5);
+  margin: 0 30px;
+  padding: 10px;
+  display: flex;
+}
+
+.series_body {
+  width: 80%;
+  margin: auto;
+}

@@ -1,0 +1,14 @@
+.App {
+  background: linear-gradient(to bottom right, #7f9bd6, #e64e9a 120%);
+  height: 100vh;
+}
+
+.text {
+  text-decoration: none;
+  color: black;
+}
+
+.column_wrapper {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,16 @@
+.home {
+    padding: 45vh 0 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tile {
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 6px;
+    background-color:  rgba(189, 189, 189, 0.5);
+}
+
+.tile:hover {
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.4);
+}
